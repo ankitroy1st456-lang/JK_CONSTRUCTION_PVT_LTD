@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4a58e8" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#4a58e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft glow behind the building -->
+  <circle cx="290" cy="250" r="230" fill="url(#glow)"/>
+
+  <!-- far-away city silhouettes -->
+  <g fill="#161c63">
+    <rect x="10"  y="300" width="62" height="140"/>
+    <rect x="78"  y="350" width="44" height="90"/>
+    <rect x="430" y="280" width="70" height="160"/>
+    <rect x="505" y="340" width="45" height="100"/>
+  </g>
+  <g fill="#2b34a0">
+    <rect x="22" y="316" width="8" height="8"/><rect x="42" y="316" width="8" height="8"/>
+    <rect x="22" y="340" width="8" height="8"/><rect x="42" y="340" width="8" height="8"/>
+    <rect x="22" y="364" width="8" height="8"/><rect x="42" y="364" width="8" height="8"/>
+    <rect x="446" y="298" width="8" height="8"/><rect x="470" y="298" width="8" height="8"/>
+    <rect x="446" y="324" width="8" height="8"/><rect x="470" y="324" width="8" height="8"/>
+    <rect x="446" y="350" width="8" height="8"/><rect x="470" y="350" width="8" height="8"/>
+  </g>
+
+  <!-- ===== Building under construction ===== -->
+  <!-- floor 1 and 2: finished, with glass -->
+  <rect x="166" y="316" width="208" height="124" fill="#232c93"/>
+  <g fill="#5967e0" opacity=".85">
+    <rect x="182" y="394" width="38" height="30"/><rect x="236" y="394" width="38" height="30"/><rect x="290" y="394" width="38" height="30"/>
+    <rect x="182" y="332" width="38" height="30"/><rect x="236" y="332" width="38" height="30"/><rect x="290" y="332" width="38" height="30"/>
+  </g>
+  <rect x="338" y="396" width="26" height="44" fill="#0c1138"/>
+  <!-- floor 3: bricks going up -->
+  <rect x="166" y="278" width="208" height="38" fill="#b50a0a"/>
+  <g stroke="#7d0606" stroke-width="2">
+    <path d="M166 291h208M166 304h208"/>
+    <path d="M200 278v13M240 278v13M280 278v13M320 278v13M350 278v13"/>
+    <path d="M220 291v13M260 291v13M300 291v13M340 291v13"/>
+    <path d="M200 304v12M240 304v12M280 304v12M320 304v12M350 304v12"/>
+  </g>
+
+  <!-- concrete columns -->
+  <g fill="#b9c3ee">
+    <rect x="160" y="192" width="10" height="248"/>
+    <rect x="228" y="192" width="10" height="248"/>
+    <rect x="296" y="192" width="10" height="248"/>
+    <rect x="364" y="192" width="10" height="248"/>
+  </g>
+  <!-- concrete floor slabs -->
+  <g fill="#e6ebfb">
+    <rect x="154" y="378" width="226" height="8"/>
+    <rect x="154" y="316" width="226" height="8"/>
+    <rect x="154" y="254" width="226" height="8"/>
+    <rect x="154" y="192" width="226" height="8"/>
+  </g>
+  <!-- steel bars sticking out of the top -->
+  <g stroke="#b9c3ee" stroke-width="3" stroke-linecap="round">
+    <path d="M165 192v-26M233 192v-26M301 192v-26M369 192v-26"/>
+  </g>
+  <!-- foundation -->
+  <rect x="146" y="436" width="242" height="8" fill="#e6ebfb"/>
+
+  <!-- scaffolding on the right -->
+  <g stroke="#8d9aea" stroke-width="2" opacity=".9">
+    <path d="M388 440V230M424 440V230"/>
+    <path d="M388 440h36M388 410h36M388 380h36M388 350h36M388 320h36M388 290h36M388 260h36M388 230h36"/>
+    <path d="M388 440l36-30M424 410l-36-30M388 380l36-30M424 350l-36-30M388 320l36-30M424 290l-36-30M388 260l36-30"/>
+  </g>
+
+  <!-- ===== Tower crane (red) ===== -->
+  <g stroke="#d80808" stroke-linecap="round" stroke-linejoin="round">
+    <!-- tower -->
+    <path d="M100 440V50M124 440V50" stroke-width="5"/>
+    <path d="M100 440l24-30l-24-30l24-30l-24-30l24-30l-24-30l24-30l-24-30l24-30l-24-30l24-30l-24-30" stroke-width="2.5"/>
+    <!-- arm (jib) -->
+    <path d="M30 56H420M30 72H420" stroke-width="4"/>
+    <path d="M40 72l24-16l24 16l24-16l24 16l24-16l24 16l24-16l24 16l24-16l24 16l24-16l24 16l24-16l24 16l24-16" stroke-width="2.5"/>
+    <!-- top frame + support cables -->
+    <path d="M112 8L100 56M112 8L124 56M112 8L410 56M112 8L36 56" stroke-width="2.5"/>
+  </g>
+  <!-- cab + counterweight -->
+  <rect x="94" y="56" width="36" height="22" rx="2" fill="#d80808"/>
+  <rect x="104" y="61" width="14" height="10" fill="#e6ebfb"/>
+  <rect x="26" y="72" width="30" height="24" fill="#5a63b5"/>
+  <!-- trolley, cable and hanging beam -->
+  <rect x="296" y="72" width="22" height="10" fill="#d80808"/>
+  <path d="M307 82V122" stroke="#e6ebfb" stroke-width="2"/>
+  <path d="M307 122L276 142M307 122L338 142" stroke="#e6ebfb" stroke-width="2"/>
+  <rect x="270" y="142" width="74" height="10" fill="#e6ebfb"/>
+  <rect x="270" y="152" width="74" height="3" fill="#8d9aea"/>
+
+  <!-- ===== Finished house with the red roof (like the logo) ===== -->
+  <rect x="452" y="372" width="86" height="68" fill="#e6ebfb"/>
+  <path d="M440 374L495 326L550 374Z" fill="#d80808"/>
+  <rect x="478" y="396" width="20" height="44" fill="#232c93"/>
+  <rect x="508" y="390" width="18" height="18" fill="#5967e0"/>
+  <rect x="518" y="336" width="10" height="24" fill="#b50a0a"/>
+
+  <!-- pile of bricks -->
+  <g fill="#d80808">
+    <rect x="30" y="416" width="52" height="24"/>
+  </g>
+  <g stroke="#7d0606" stroke-width="2">
+    <path d="M30 424h52M30 432h52M44 416v8M62 416v8M52 424v8M70 424v8M44 432v8M62 432v8"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="440" width="560" height="40" fill="#080c2b"/>
+  <rect x="0" y="440" width="560" height="4" fill="#d80808"/>
+</svg>
