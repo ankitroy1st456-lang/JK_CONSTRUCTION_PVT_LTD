@@ -12,7 +12,7 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 // ============================================================
 
 // The Storage bucket that holds every file. Create it in Supabase and make it PUBLIC.
-export const BUCKET = "company-files";
+export const BUCKET = "construction-files";
 
 let client: SupabaseClient | undefined;
 
